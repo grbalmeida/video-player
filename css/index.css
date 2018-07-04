@@ -1,11 +1,17 @@
-[data-player], video {
+[data-player], 
+video,
+[data-speed] {
 	margin: 0 auto;
 	width: 80%;
-	background-color: lightgrey;
 } 
 
+[data-player],
+video {
+	background-color: lightgrey;
+}
+
 [data-player] {
-	height: 50px;
+	height: 70px;
 	margin-top: 10px;
 	padding: 6px 0 0 5px;
 	box-sizing: border-box;
@@ -30,6 +36,9 @@ i {
 }
 
 [data-currenttime] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
 	background-color: red;
 }
@@ -52,4 +61,12 @@ i {
 
 [data-volume] {
 	width: 10%;
+}
+
+[data-currentduration] {
+	margin-top: 7px;
+}
+
+[data-speed] {
+	margin-bottom: 10px;
 }
