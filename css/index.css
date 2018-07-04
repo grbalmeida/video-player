@@ -1,0 +1,55 @@
+[data-player], video {
+	margin: 0 auto;
+	width: 80%;
+	background-color: lightgrey;
+} 
+
+[data-player] {
+	height: 50px;
+	margin-top: 10px;
+	padding: 6px 0 0 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+i {
+	font-size: 2em;
+	width: 7%;
+	text-align: center;
+}
+
+[data-progress] {
+	height: 30px;
+	width: 70%;
+	float: right;
+	margin-right: 10px;
+}
+
+[data-currenttime] {
+	width: 0%;
+}
+
+[data-currenttime] {
+	height: 100%;
+	background-color: red;
+}
+
+[data-progress],
+i {
+	cursor: pointer;
+}
+
+[data-progress],
+[data-player]{
+	border: 1px solid black;
+}
+
+[data-player],
+video,
+i {
+	display: block;
+}
+
+[data-volume] {
+	width: 10%;
+}

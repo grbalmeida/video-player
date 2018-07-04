@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Video Player</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+	<video src="https://r4---sn-q4flrnee.googlevideo.com/videoplayback?itag=18&gir=yes&fvip=6&fexp=23709359&expire=1530686598&mime=video%2Fmp4&requiressl=yes&clen=10590670&ratebypass=yes&ipbits=0&sparams=clen,dur,ei,expire,gir,id,initcwndbps,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,pcm2cms,pl,ratebypass,requiressl,source&c=WEB&ei=Jhg8W-COFNq6hgbe0pOoCQ&id=o-AOK-8tS4Rh0oqkjWgeMr_T-Fp7ebhWndvmyeNgLFsV2R&pl=20&source=youtube&dur=184.877&lmt=1495861263628059&key=cms1&ip=45.77.202.100&signature=40A9F8ADD052EE51B46F6C7CAC6A7B451105AEA1.047D2401A9087B2A6CA897DAD0B5ADF6F20AA2E8&title=Conhe%C3%A7a+a+99+%7C+Parceira+Udacity&title=Conhe%C3%A7a+a+99+%7C+Parceira+Udacity&mip=177.205.17.80&cm2rm=sn-b8u-8j2e7z,sn-gpves7d&req_id=17c64481373aa3ee&redirect_counter=2&cms_redirect=yes&mm=34&mn=sn-q4flrnee&ms=ltu&mt=1530664941&mv=m" data-video></video>
+	<div data-player>
+		<i class="fas fa-play" data-icon title="Play"></i>
+		<i class="fas fa-volume-up" data-mute title="Mute"></i>
+		<input type="range" min="0" max="100" data-volume>
+		<div data-progress>
+			<div data-currenttime></div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>
